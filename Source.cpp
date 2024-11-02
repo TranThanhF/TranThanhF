@@ -16,5 +16,14 @@ int main()
 	cin >> b;
 	cout << "Hieu la: " << hieu(a, b);
 	system("pause");
+
+
+
+
+	cout << "tuan";
 	return 0;
+
+
+
+
 }
