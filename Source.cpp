@@ -5,15 +5,19 @@ int tong(int a, int b);
 int hieu(int a, int b) {
 	return a - b;
 }
-int tich(int a, int b);
+int tich(int a, int b)
+{
+	return a*b;
+}
 float thuong(int a, int b);
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
-	cout << "nhap a: ";
-	cin >> a;
-	cout << "nhap b: ";
-	cin >> b;
+	cout <<"Nhap a:";
+	cin>>a;
+	cout <<"Nhap b:";
+	cin>>b;
+	cout<<"Tich la: "<<tich(a,b);
 	cout << "Hieu la: " << hieu(a, b);
 	system("pause");
 	return 0;
